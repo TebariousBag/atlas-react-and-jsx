@@ -9,7 +9,7 @@ function App() {
     <div className="app">
       <Header />
       <OpenLink link="https://www.google.com" />
-      <CopyLink link="https://www.google.com" />
+      <CopyLink link="https://www.googledoodoo.com" />
       <Section title="What is React?">
         <p>
           React is an open-source JavaScript library for building user interfaces (UIs), particularly for single-page applications. It is maintained by Facebook and a community of individual developers and companies. React allows 
