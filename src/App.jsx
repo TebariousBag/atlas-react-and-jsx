@@ -5,6 +5,7 @@ import OpenLink from './components/OpenLink';
 import CopyLink from './components/CopyLink';
 import HelpfulResource from './components/HelpfulResource';
 import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <HelpfulResource link="https://www.geeksforgeeks.org/reactjs/react/" label="Geeks for Geeks - React Tutorial" />
       </Section>
       <AboutMe />
+      <Footer />
     </div>
   );
 }

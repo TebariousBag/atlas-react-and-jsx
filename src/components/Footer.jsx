@@ -1,6 +1,9 @@
 import linksData from '../assets/links.json';
 
+// mapped the link data, key is index. 
+// link pulls the actual link, and the text for link is the label
 function Footer() {
+  const currentYear = new Date().getFullYear();
 	return (
 		<footer>
 			<ul>
@@ -12,6 +15,7 @@ function Footer() {
                     </li>
                 ))}
 			</ul>
+			<p>© {currentYear} Atlas School</p>
 		</footer>
 	);
 }
