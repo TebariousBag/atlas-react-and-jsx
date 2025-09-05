@@ -1,4 +1,3 @@
-// Section component
 function Section({ title, children }) {
   return (
     <div className="section">
