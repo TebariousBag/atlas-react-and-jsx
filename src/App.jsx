@@ -4,6 +4,7 @@ import Section from './components/Section';
 import OpenLink from './components/OpenLink';
 import CopyLink from './components/CopyLink';
 import HelpfulResource from './components/HelpfulResource';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <HelpfulResource link="https://www.codecademy.com/learn/react-101" label="Code Academy - React 101" />
         <HelpfulResource link="https://www.geeksforgeeks.org/reactjs/react/" label="Geeks for Geeks - React Tutorial" />
       </Section>
+      <AboutMe />
     </div>
   );
 }
