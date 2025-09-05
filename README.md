@@ -1,3 +1,6 @@
+# Project is deployed using Netlify
+https://atlas-react-jsx-tdavis.netlify.app/
+
 # React and JSX Introduction
 
 ## Getting Started
