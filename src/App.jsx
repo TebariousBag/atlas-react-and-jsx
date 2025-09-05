@@ -1,14 +1,11 @@
-// import the greeting we created
-import Greeting from "./components/Greeting";
-// import SocialLinks we created
-import SocialLinks from "./components/SocialLinks";
+// Import Header we created
+import Header from "./components/Header"
 
 function App() {
   return (
-    <div>
-  <div className="app"><Greeting /></div>
-  <div className="social-links"><SocialLinks /></div>
-  </div>
+    <div className="app">
+      <Header />
+    </div>
   );
 }
 
